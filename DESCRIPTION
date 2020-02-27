@@ -1,0 +1,14 @@
+Package: MiHC
+Version: 1.0
+Title: Microbiome Higher Criticism Analysis
+Date: 2020-02-26
+Author: Hyunwook Koh
+Maintainer: Hyunwook Koh <hkoh7@jhu.edu>
+Description: This R package provides facilities for the microbiome higher criticism analysis (MiHC) which tests the association between a microbial group (e.g., community or clade) composition and a host phenotype of interest. MiHC is a data-driven omnibus test taken in a search space spanned by tailoring the higher criticism test to incorporate phylogenetic information and/or modulate sparsity levels and including the Simes test for excessively high sparsity levels.
+NeedsCompilation: no
+Depends: R(>= 3.4.1), cluster, compositions, permute, phyloseq, knitr, rmarkdown
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+License: GPL-2
+NeedsCompilation: no
+URL: https://github.com/hk1785/MiHC
