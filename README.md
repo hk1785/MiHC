@@ -69,9 +69,10 @@ URL: https://joey711.github.io/phyloseq/
 
 ## Troubleshooting Tips
 
-If you have any issues for using this R package, please report in Issues (https://github.com/hk1785/MiHC/issues) or email Hyunwook Koh (hkoh@jhu.edu).
+If you have any problems for using this R package, please report in Issues (https://github.com/hk1785/MiHC/issues) or email Hyunwook Koh (hkoh@jhu.edu).
 
 * Tip 1. Depending on your pre-installed R libraries, this R package can require you to install additional R packages such as "gh", "usethis", "cli", etc using the command: install.packages("package_name").
+* Tip 2. Please make sure if you have the most recent package version.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
