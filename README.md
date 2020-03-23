@@ -26,7 +26,7 @@ URL: https://github.com/hk1785/MiHC
 
 ## Reference
 
-* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. (_under revision_).
+* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ (_Accepted_).
 
 ## Troubleshooting Tips
 
@@ -161,7 +161,7 @@ MiHC.plot(MiHC.out, leg.loc="bottomright", pdf.filename=NULL)
 The Q-Q plots between the expected and observed quantiles for the unweighted and weighted higher criticism tests. Blue dots represent individual OTUs and a red diagonal line represents no influential points; as such, the OTUs that fall along the diagonal line have no influence on the host phenotype while the OTUs that have larger deviations from the diagonal line are more influential on the host phenotype. Darker to lighter vertical lines represent more to less influential OTUs in rank order among the 10 most influential OTUs that correspond to the 10 largest deviations from the red diagonal line.
 
 ### References
-* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. (_under revision_).
+* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ (_Accepted_).
 
 ### Example
 Import requisite R packages
