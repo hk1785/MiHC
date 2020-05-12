@@ -8,7 +8,7 @@ Date: 2020-02-26
 
 Author: Hyunwook Koh
 
-Maintainer: Hyunwook Koh <hkoh7@jhu.edu>
+Maintainer: Hyunwook Koh <hyunwook.koh@stonybrook.edu>
 
 Description: This R package (MiHC v1.0) provides facilities for MiHC which tests the association between a microbial group (e.g., community or clade) composition and a host phenotype of interest. MiHC is a data-driven omnibus test taken in a search space spanned by tailoring the higher criticism test to incorporate phylogenetic information and/or modulate sparsity levels and including the Simes test for excessively high sparsity levels. 
 
@@ -26,7 +26,7 @@ URL: https://github.com/hk1785/MiHC
 
 ## Reference
 
-* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ (_Accepted_).
+* Koh, H., Zhao, N. (2020). A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ 8(63):1:16.
 
 ## Troubleshooting Tips
 
@@ -111,9 +111,9 @@ _$ind.pvs_ - The p-values for the item-by-item unweighted and weighted higher cr
 _$ada.pvs_ - The p-values for the local (i.e., uHC(A) and wHC(A)) and global (i.e., MiHC) omnibus higher criticism tests.
 
 ### References
-* Koh and Zhao. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. (_Under revision_).
+* Koh, H., Zhao, N. (2020). A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ 8(63):1:16.
 
-* Simes (1986). An improved Bonferroni procedure for multiple tests of significance. _Biometrika_ 73(3):751-754
+* Simes, R.J. (1986). An improved Bonferroni procedure for multiple tests of significance. _Biometrika_ 73(3):751-754
 
 ### Example
 Import requisite R packages
@@ -161,7 +161,7 @@ MiHC.plot(MiHC.out, leg.loc="bottomright", pdf.filename=NULL)
 The Q-Q plots between the expected and observed quantiles for the unweighted and weighted higher criticism tests. Blue dots represent individual OTUs and a red diagonal line represents no influential points; as such, the OTUs that fall along the diagonal line have no influence on the host phenotype while the OTUs that have larger deviations from the diagonal line are more influential on the host phenotype. Darker to lighter vertical lines represent more to less influential OTUs in rank order among the 10 most influential OTUs that correspond to the 10 largest deviations from the red diagonal line.
 
 ### References
-* Koh, H., Zhao, N. A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ (_Accepted_).
+* Koh, H., Zhao, N. (2020). A powerful microbial group association test based on the higher criticism analysis for sparse microbial association signals. _Microbiome_ 8(63):1:16.
 
 ### Example
 Import requisite R packages
