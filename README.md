@@ -40,11 +40,11 @@ Jang, H., Koh, H. A unified web cloud computing platform MiMedSurv for microbiom
 
 ## GitHub Repository Contents
 
-**Data** In this directory, example microbiome data are stored in a widely used unified format, called phyloseq, that can efficiently combine all essential microbiome data components as well as individual files.
+**Data** - In this directory, example microbiome data are stored in a widely used unified format, called phyloseq, that can efficiently combine all essential microbiome data components as well as individual files.
 
-**Source** In this directory, all the R functions that are needed to run MiMedSurv are stored.
+**Source** - In this directory, all the R functions that are needed to run MiMedSurv are stored.
 
-**www** In this directory, some photos that are used to decorate the GUI of MiMedSurv are stored.
+**www** - In this directory, some photos that are used to decorate the GUI of MiMedSurv are stored.
 
 **app.R** - In this file, all the central codes to control for user-interfaces and server functions of MiMedSurv are stored.
 
