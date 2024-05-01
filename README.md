@@ -22,7 +22,7 @@ License: GPL 1, GPL 2
 
 * Jang, H., Koh, H. A unified web cloud computing platform MiMedSurv for microbiome causal mediation analysis with survival responses (In Review)
 
-## Descriptions on Data Processing & Analytic Modules
+## Data Processing & Analytic Modules
 
 **(1) Data Processing: Data Input** - Users first need to upload their microbiome data with (1) four components: a feature (operational taxonomic unit (OTU) or amplicon sequence variants (ASV)) table, a taxonomic table, a phylogenetic tree, and metadata or (2) three components: a feature (OTU or ASV) table, a taxonomic table, and metadata. If users upload their microbiome dataset with three components without a phylogenetic tree, only non-phylogenetic community-level (alpha- and beta-diversity) analyses will later be performed. Users can start with downloading the example microbiome data from the Example Data section. The data are stored in a widely used unified format, called phyloseq, that can efficiently combine all essential microbiome data components. Alternatively, users can also employ them all individually. In this module, we also described all the instructions with example codes to check compatible data formats so that users can prepare microbiome data easily. 
 
